@@ -1,0 +1,14 @@
+Name: Workflow_ffba
+SchemaVersion: "1.0"
+
+# Optional - Set automatic triggers.
+Triggers:
+  - Type: Push
+    Branches:
+      - master
+  - Type: PUSH
+    Branches:
+      - master
+
+# Required - Define action configurations.
+Actions:
